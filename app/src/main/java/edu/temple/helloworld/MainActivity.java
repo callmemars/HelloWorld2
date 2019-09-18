@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 //Toast toast = Toast.makeText(getApplicationContext() , "You have clicked the button", Toast.LENGTH_LONG);
                 //toast.show();
                 TextView greetingText = (TextView)findViewById(R.id.greetingText);
-                greetingText.setText("You have clicked the button");
+                greetingText.setText("You have clicked the button"); //
             }
         });
     }
