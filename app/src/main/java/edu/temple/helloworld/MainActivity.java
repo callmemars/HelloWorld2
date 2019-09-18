@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 // Create the text view
                 TextView greetingText = (TextView)findViewById(R.id.greetingText);
 
-                // Change the text of the textview
+                // Change the text of the textvieww
                 greetingText.setText("You have clicked the button"); //
             }
         });
