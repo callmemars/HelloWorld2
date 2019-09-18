@@ -17,14 +17,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Create button
         disButton = findViewById(R.id.clickButton);
+        // Create on click listener
         disButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
                 //Toast toast = Toast.makeText(getApplicationContext() , "You have clicked the button", Toast.LENGTH_LONG);
                 //toast.show();
+                // Create the text view
                 TextView greetingText = (TextView)findViewById(R.id.greetingText);
+
+                // Change the text of the textview
                 greetingText.setText("You have clicked the button"); //
             }
         });
